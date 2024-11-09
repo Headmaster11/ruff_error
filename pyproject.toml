@@ -172,9 +172,6 @@ ignore = [
     "E501", # проверяется в djLint
     "ISC001",
     "COM812",
-#    "E203",
-    "E202",
-    "E201",
 ]
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
@@ -187,12 +184,6 @@ quote-style = "double"
 indent-style = "space"
 skip-magic-trailing-comma = false
 line-ending = "auto"
-exclude = [
-        #"E203",
-    "E202",
-    "E201",
-    "E204",
-    ]
 
 [tool.ruff.lint.isort]
 combine-as-imports = true
